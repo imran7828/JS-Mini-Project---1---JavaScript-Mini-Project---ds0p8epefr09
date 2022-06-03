@@ -4,38 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Validation Form</title>
+    <title>JS-Login-Form</title>
     <link rel ="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <form class="Vform" aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
-        <div id="formdesign" id="name">
-            Name: <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+  <form action="post">
+        <p>Enter your Name</p>
+        <input type="text" id="inputElement" />
+
+        <p>Enter your Password</p>
+        <input type="password" />
+
+        <div>
+          <button onclick="signIn()">Sign In</button>
         </div>
 
-        <div class="formdesign" id="email">
-            Email: <input type="email" name="femail" required><b><span class="formerror"> </span></b>
-        </div>
-
-        <div class="formdesign" id="phone">
-            Phone: <input type="phone" name="fphone" required><b><span class="formerror"></span></b>
-        </div>
-
-        <div class="formdesign" id="pass">
-            Password: <input type="password" name="fpass" required><b><span class="formerror"></span></b>
-        </div>
-
-        <div class="formdesign" id="cpass">
-            Confirm Password: <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
-        </div>
-
-        <input class="but" type="submit" value="Submit">
-
+        <p id="signInText"></p>
     </form>
 </body>
 <script src="App.js"></script>
-
 </html>
 </body>
 </html>

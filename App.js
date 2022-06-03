@@ -1,4 +1,3 @@
-
 let inputElement = document.getElementById("inputElement");
 let signInTextElement = document.getElementById("signInText");
 

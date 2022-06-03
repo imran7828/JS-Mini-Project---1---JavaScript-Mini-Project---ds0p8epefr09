@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
         body {
             padding: 10px 50px;
@@ -43,3 +44,43 @@
     border: 0rem;
     
 }
+=======
+
+        body {
+            padding: 10px 50px;
+             text-align: center;
+             background-color: crimson;
+        }
+        h1{
+            text-align: center;
+        }
+        #Vform{
+            align-items: center;
+           
+        }
+        .formdesign {
+            font-size: 20px;   
+            position: relative;
+        }
+
+        .formdesign input {
+            width: 50%;
+            padding: 12px 20px;
+            border: 1px solid blue;
+            margin: 14px;
+            border-radius: 4px;
+            font-size: 15px;   
+        }
+
+        .formerror {
+            color: rgb(255, 255, 255);
+        }
+
+        .but {
+            border-radius: 9px;
+            width: 100px;
+            height: 50px;
+            font-size: 25px;
+            margin: 22px 20px;
+        }
+>>>>>>> 8151a49a93dc7af2ce8ea15fa12fdaaf3a3f672f
