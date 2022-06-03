@@ -3,6 +3,7 @@
             padding: 10px 50px;
              text-align: center;
              background-color: crimson;
+             border-radius: 10rem;
         }
         h1{
             text-align: center;
@@ -14,6 +15,7 @@
         .formdesign {
             font-size: 20px;   
             position: relative;
+           
         }
 
         .formdesign input {
@@ -22,7 +24,8 @@
             border: 1px solid blue;
             margin: 14px;
             border-radius: 4px;
-            font-size: 15px;   
+            font-size: 15px;
+            border-radius: 5rem;
         }
 
         .formerror {
@@ -36,3 +39,7 @@
             font-size: 25px;
             margin: 22px 20px;
         }
+#email{
+    border: 0rem;
+    
+}
