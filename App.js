@@ -3,7 +3,7 @@ let signInTextElement = document.getElementById("signInText");
 
 function signIn() {
   let inputValue = inputElement.value;
-  let verifyText = "Hi " + inputValue + ", verifying your account...";
+  let verifyText = "Hi " + inputValue + ", Welcome to The Guessing Game Arena";
   signInTextElement.textContent = verifyText;
 }
 
